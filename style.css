@@ -1,3 +1,7 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .filter-container {
   text-align: center;
   padding-bottom: 20px;
@@ -25,4 +29,36 @@ input[type="range"] {
 .range-container span {
   font-size: 1.2rem;
   transform: translateY(-3px);
+}
+
+.countries-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.country-card {
+  background-color: rgb(13, 11, 11);
+  width: 400px;
+  height: auto;
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  padding: 20px;
+  height: 100px;
+  object-fit: cover;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.country-infos {
+  color: rgb(204, 202, 202);
+  padding: 0px;
+  text-align: center;
 }
